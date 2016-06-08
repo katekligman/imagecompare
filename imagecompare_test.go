@@ -1,4 +1,4 @@
-package blockcheck
+package imagecompare
 
 import "testing"
 import "github.com/disintegration/imaging"
