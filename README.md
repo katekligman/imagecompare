@@ -1,2 +1,4 @@
 # imagecompare
-Three way image compare package for go
+A three way image compare package for go.
+
+Developed by Kate Kligman
