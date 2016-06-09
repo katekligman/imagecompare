@@ -4,8 +4,6 @@ import (
     "errors"
     "image"
     "image/color"
-    "image/png"
-    "os"
 
     "github.com/disintegration/imaging"
 )

@@ -4,10 +4,10 @@ import "testing"
 import "github.com/disintegration/imaging"
 
 func TestGetImageMask(t *testing.T) {
-    a, err := OpenPng("test/Test_card_a.png"); if err != nil {
+    a, err := imaging.Open("test/Test_card_a.png"); if err != nil {
         t.Errorf("Can't open test image")
     }
-    b, err := OpenPng("test/Test_card_b.png"); if err != nil {
+    b, err := imaging.Open("test/Test_card_b.png"); if err != nil {
         t.Errorf("Can't open test image")
     }
     mask, err := GetImageMask(16, a, b); if err != nil {
